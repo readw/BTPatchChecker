@@ -1,6 +1,10 @@
 # RouterPatchChecker
 ### By William Read
-Router patch check, to determine if a router needs updating based of multiple criteria.
+Router Patch Checker, to determine if a router needs updating based off of the following criteria:
+* The router has not already been patched
+* The current version of the router OS is 12 or above
+* There are no other routers which share the same IP address
+* There are no other routers which share the same hostname
 
 In order to use the application you will need to do the following:
 
@@ -9,13 +13,12 @@ In order to use the application you will need to do the following:
 2. Next open up a terminal window in the directory with the 'routerPatchChecker.py'.
 
 3. Enter the command:
-'''
-python routerPatchChecker.py sample.csv 12
-'''
+> python routerPatchChecker.py sample.csv 12
+
 
 This will then display all the results to the screen on routers that require a server patch.
 
 ## Notes:
 The arguements that follow routerPatchChecker.py represent:
-* CSV File Name --> enter the name of your csv document.
+* CSV Name and Location --> enter the directory and name of your csv document.
 * Systems Version --> enter the version on which you filter through.
