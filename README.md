@@ -7,7 +7,11 @@ Router Patch Checker, to determine if a router needs updating based off of the f
 * There are no other routers which share the same hostname
 
 In order to use the application you will need to do the following:
+#### Software
+Language: Python 2.7 (Developed in Python 2.7.13)
+OS: Linux / Unix
 
+#### Instructions
 1. Download and extract the repository.
 
 2. Next open up a terminal window in the directory with the 'routerPatchChecker.py'.
