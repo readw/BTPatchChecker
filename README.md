@@ -9,6 +9,7 @@ Router Patch Checker, to determine if a router needs updating based off of the f
 In order to use the application you will need to do the following:
 #### Software
 Language: Python 2.7 (Developed in Python 2.7.13)
+<br />
 OS: Linux / Unix
 
 #### Instructions
