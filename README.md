@@ -20,7 +20,7 @@ OS: Linux / Unix
 > python routerPatchChecker.py sample.csv 12
 
 
-This will then display all the results to the screen on routers that require a server patch.
+This will then display all the results to the screen of all routers that require a server patch.
 
 ## Notes:
 The arguements that follow routerPatchChecker.py represent:
